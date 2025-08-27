@@ -20,9 +20,9 @@
 
 </head>
 <body>
-    <div class="container-fluid bg-nav">
+    <div class="container-fluid sticky-navbar bg-nav">
         <div class="container">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar  navbar-expand-lg">
               <div class="container-fluid">
                <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
