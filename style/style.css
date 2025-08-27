@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*******************************/
+/****** Index Page Start ******/
+/*****************************/
+
+
+/*****************************/
+/*=== Hero Section Start ===*/
+/***************************/
+.hero-section{
+    height: 850px;
+    background-image: url('../img/hero-bg.png');
+    width: 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 150px;
+    position: relative;
+}
+.hero-section h3{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+.hero-section h1{
+    color: #fdfeff;
+    font-size: 120px;
+    line-height: 0.90em;
+    font-weight: 600;
+    margin-bottom: 24px;
+    font-family: 'roboto' , sans-serif;
+}
+.hero-section h2{
+    color: #a9adb8;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.hero-btn{
+    background-color: #fec544;
+    padding: 12px 48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+}
+.hero-img-container{
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    width: 49%;
+    height: 100%;
+}
+.hero-img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.hero-section-social-media{
+    position: absolute;
+    width: 400px;
+    bottom: 30px;
+    right: 49%;    
+    background-color: #101624;
+    border: 1px solid #232935;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.hero-section-social-media a{
+    padding:  10px;
+    border-radius: 50px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    border: 1px solid #3f4551;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #070e1b;
+    margin-right: 20px;
+}
+.hero-section-social-media a i{
+    font-size: 20px;
+    color: #a9adb8;
+}
+.hero-section-social-media .social-media-name {
+  max-width: 0;
+  overflow: hidden;
+  white-space: nowrap; 
+  transition: max-width 0.3s ease;
+}
+
+.hero-section-social-media a:hover .social-media-name {
+  max-width: 140px; 
+  margin-left: 10px;
+}
+/* making responsive hero-section */
+
+@media (max-width: 1024px) {
+    .hero-section{
+        padding: 150px 120px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .hero-section{
+        padding: 150px 135px;
+        height: initial;
+    }
+    .nav-contact{
+        display: none;
+    }
+    .hero-img-container{
+        display: none;
+    }
+    .hero-section-social-media{
+        display: none;
+    }
+     }
+   @media (max-width:576px) {
+        .hero-section-text{
+            padding: 100px 0px;
+        }
+        .hero-section{
+            padding: 0px ;
+        }
+        .hero-section h1{
+            font-size: 85px;
+        } 
+}
+
+
+/******************************/
+/*=== About Section Start ===*/
+/****************************/
+.about-section{
+    padding: 100px 0px ;
+    background-color: #0a101e;
+}
+
+
+
+
+
+
+
+
+/******************************/
+/*=== About Section Start ===*/
+/****************************/
+
+/***************************/
+/*=== Hero Section End ===*/
+/*************************/
+
+
+
+
+
+
+/*****************************/
+/****** Index Page Emd ******/
+/***************************/
+
+
+
+
+
+/*******************************/
+/**** Utility Class Start *****/
+/*****************************/
+
+.container{
+    max-width: 1140px !important;
+}
+@media (max-width:1024px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media (max-width:768px) {
+    .container{
+        max-width: 720px;
+    }
+}
+@media (max-width:576px) {
+    .container{
+        max-width: 540px;
+    }
+}
+
+
+.bg-nav{
+    background-color: #070e1b;
+}
+
+.nav-link{
+    color: #ffffff !important;
+    font-size: 16px;
+}
+.active{
+    color: #fec544 !important;
+}
+.font-nav-contact{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.nav-contact::before{
+    content: '';
+    position: absolute;
+    right: 200px;
+    height: 10px;
+    width: 1px;
+    background-color: #ffffff;
+}
+.margin-right{
+    margin-right: 35px;
+}
+/*******************************/
+/****** Utility Class End *****/
+/*****************************/
+
