@@ -271,8 +271,111 @@
 
  <!-- My Skills Section Starts -->
 <section class="skills-section">
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading text-center">
+                    <h2 class="section-sub-heading">MY SKILLS</h2>
+                    <h3>MY SKILLS</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-6">
+                <div class="service-section-title">
+                    <h3 class="section-title">All the skills that I have in that field of work are mentioned.</h3>
+                    <p class="p">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores. <br>
+                        <br>
+                        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
+                </p>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="progress-bar-wrap">
+                        <div class="single-progress-bar">
+                            <div class="progress-bar-title d-flex justify-content-between align-items-center">
+                              <span  class="progress-bar-title">Photoshop</span> <span class="active">95%</span>  
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                          <div class="single-progress-bar">
+                            <div class="progress-bar-title d-flex justify-content-between align-items-center">
+                              <span  class="progress-bar-title">Motion Graphic</span> <span class="active">75%</span>  
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                            <div class="single-progress-bar">
+                            <div class="progress-bar-title d-flex justify-content-between align-items-center">
+                              <span  class="progress-bar-title">Adobe XD</span> <span class="active">90%</span>  
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                            <div class="single-progress-bar">
+                            <div class="progress-bar-title d-flex justify-content-between align-items-center">
+                              <span  class="progress-bar-title">UX Design</span> <span class="active">85%</span>  
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="single-progress-bar">
+                            <div class="progress-bar-title d-flex justify-content-between align-items-center">
+                              <span  class="progress-bar-title">HTML</span> <span class="active">80%</span>  
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                            <div class="single-progress-bar">
+                            <div class="progress-bar-title d-flex justify-content-between align-items-center">
+                              <span  class="progress-bar-title">Digital Marketing</span> <span class="active">90%</span>  
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-fill" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
   <!-- My Skills Section End -->
+
+  <!-- Resume Section Starts -->
+<section class="resume-section">
+ <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading text-center">
+                    <h2 class="section-sub-heading">RESUME</h2>
+                    <h3>RESUME</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="resume-container">
+                    <div class="resume-heading">
+                        <img src="" alt="">
+                        <h2 class="resume-heading">Experience</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6"></div>
+        </div>
+    </div>
+</section>
+
+  <!-- Resume Section Ends -->
 
 <?php include 'footer.php' ?>
