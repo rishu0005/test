@@ -325,6 +325,87 @@ body{
 /*=== Skills Section Ends ===*/
 /****************************/
 
+/********************************/
+/*=== Resume Section Starts ===*/
+/******************************/
+.resume-section{
+    background-color: #070d1b;
+}
+.resume-heading-container{
+    margin-bottom: 50px;
+}
+.resume-heading{
+    color: #fdfeff;
+    font-size: 36px;
+    margin: 0px 0px 0px 30px;
+}
+.resume-timeline{
+    position: relative;
+    margin-bottom: 50px;
+}
+.resume-timeline:hover::before{
+    background-color: #fec544;
+    transition: all 0.4s ease;
+}
+.resume-timeline::before{
+    position: absolute;
+    content: '';
+    height: 13px;
+    width: 13px;
+    background-color: #101624;
+    border: 2px solid #232935;
+    border-radius: 50%;
+    left: -47px;
+    transition: 0.4s;
+}
+.resume-timeline-container{
+    margin-left: 20px;
+    padding: 0px 0px 0px 40px;
+    border-left: 1px solid #232935;
+}
+.resume-timeline-title{
+    color: #fec544;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.resume-timeline-duration{
+    font-size: 18px;
+    color: #a9adb8;
+    margin-bottom: 21px;
+}
+.resume-timeline-subtitle{
+    font-size: 20px;
+    color: #fdfeff;
+    margin-bottom: 19px;
+    font-weight: 400;
+}
+/******************************/
+/*=== Resume Section Ends ===*/
+/****************************/
+
+
+/***********************************/
+/*=== Portfolio Section Starts ===*/
+/*********************************/
+.portfolio-section{
+    padding: 100px 0px;
+}
+
+/*********************************/
+/*=== Portfolio Section Ends ===*/
+/*******************************/
+
+/******************************/
+/*=== Review Section Ends ===*/
+/****************************/
+.review-section{
+    padding: 100px 0px;
+    
+}
+/******************************/
+/*=== Review Section Ends ===*/
+/****************************/
+
 
 /*****************************/
 /****** Index Page End ******/

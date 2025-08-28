@@ -349,33 +349,214 @@
 </section>
   <!-- My Skills Section End -->
 
-  <!-- Resume Section Starts -->
+<!-- Resume Section Starts -->
 <section class="resume-section">
  <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-heading text-center">
-                    <h2 class="section-sub-heading">RESUME</h2>
+                    <h2 class="section-sub-heading" style="right: 34.5%;">RESUME</h2>
                     <h3>RESUME</h3>
                 </div>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-lg-6">
                 <div class="resume-container">
-                    <div class="resume-heading">
-                        <img src="" alt="">
+                    <div class="resume-heading-container d-flex ">
+                        <img src="./img/resume-icon1.png" class="img-fluid" alt="">
                         <h2 class="resume-heading">Experience</h2>
+                    </div>
+
+                    <div class="resume-timeline-container">
+                        <div class="resume-timeline">
+                            <h3 class="resume-timeline-title">Senior UX/UI Designer</h3>
+                            <h5 class="resume-timeline-duration">Jan 2020 - Present</h4>
+
+                            <h4 class="resume-timeline-subtitle">Bergnaum, Hills and Howe</h4>
+                            <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+
+                        </div>
+
+                        <div class="resume-timeline">
+                            <h3 class="resume-timeline-title">Product Designer</h3>
+                            <h5 class="resume-timeline-duration">Jan 2016 - December 2019</h4>
+
+                            <h4 class="resume-timeline-subtitle">Langosh, Sipes and Raynor</h4>
+                            <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+
+                        </div>
+
+                         <div class="resume-timeline">
+                            <h3 class="resume-timeline-title">UI/UX Designer</h3>
+                            <h5 class="resume-timeline-duration">Jan 2014 - December 2015</h4>
+
+                            <h4 class="resume-timeline-subtitle">Strosin, Maggio and Homenick</h4>
+                            <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-6"></div>
+            <div class="col-lg-6">
+                <div class="resume-container">
+                    <div class="resume-heading-container d-flex">
+                        <img src="./img/resume-icon2.png" class="img-fluid" alt="">
+                        <h2 class="resume-heading">Education</h2>
+                    </div>
+
+                    <div class="resume-timeline-container">
+                      <div class="resume-timeline">
+                            <h3 class="resume-timeline-title">Master of Computer Science</h3>
+                            <h5 class="resume-timeline-duration">2015 - 2016</h4>
+
+                            <h4 class="resume-timeline-subtitle">University of XYZ</h4>
+                            <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+
+                        </div>
+
+                        <div class="resume-timeline">
+                            <h3 class="resume-timeline-title">Bachelor of Computer Science</h3>
+                            <h5 class="resume-timeline-duration">2010 - 2014</h4>
+
+                            <h4 class="resume-timeline-subtitle">University of ABC</h4>
+                            <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+
+                        </div>
+
+                         <div class="resume-timeline">
+                            <h3 class="resume-timeline-title">Diploma in Computer Science</h3>
+                            <h5 class="resume-timeline-duration">2006 - 2010</h4>
+
+                            <h4 class="resume-timeline-subtitle">XYZ Institution</h4>
+                            <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 </section>
+<!-- Resume Section Ends -->
 
-  <!-- Resume Section Ends -->
+<!-- Portfolio Section Starts -->
+<section class="portfolio-section">
+<div class="container">
+    <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading text-center">
+                    <h2 class="section-sub-heading" style="right: 27%;">PORTFOLIO</h2>
+                    <h3>PORTFOLIO</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="portfolio-card">
+                    <div class="portfolio-card-item">
+                        <a href="./img/portfolio1_lg.jpg">
+                            <div class="zoom-in-img">
+                                <img src="./img/portfolio1_lg.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="portfolio-card-item-hover"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-lg-4 col-md-6">
+                <div class="portfolio-card">
+                    <div class="portfolio-card-item">
+                        <a href="./img/portfolio1_lg.jpg">
+                            <div class="zoom-in-img">
+                                <img src="./img/portfolio2_lg.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="portfolio-card-item-hover"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-lg-4 col-md-6">
+                <div class="portfolio-card">
+                    <div class="portfolio-card-item">
+                        <a href="./img/portfolio1_lg.jpg">
+                            <div class="zoom-in-img">
+                                <img src="./img/portfolio3_lg.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="portfolio-card-item-hover"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-lg-4 col-md-6">
+                <div class="portfolio-card">
+                    <div class="portfolio-card-item">
+                        <a href="./img/portfolio1_lg.jpg">
+                            <div class="zoom-in-img">
+                                <img src="./img/portfolio4_lg.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="portfolio-card-item-hover"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-lg-4 col-md-6">
+                <div class="portfolio-card">
+                    <div class="portfolio-card-item">
+                        <a href="./img/portfolio1_lg.jpg">
+                            <div class="zoom-in-img">
+                                <img src="./img/portfolio5_lg.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="portfolio-card-item-hover"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-lg-4 col-md-6">
+                <div class="portfolio-card">
+                    <div class="portfolio-card-item">
+                        <a href="./img/portfolio1_lg.jpg">
+                            <div class="zoom-in-img">
+                                <img src="./img/portfolio6_lg.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="portfolio-card-item-hover"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+
+                <button class="hero-btn  mt-5">Load More</button>
+            </div>
+        </div>
+</div>
+</section>
+<!-- Portfolio Section Ends -->
+
+<!-- Review Section Start -->
+<section class="review-section">
+    <div class="container">
+            <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading text-center">
+                    <h2 class="section-sub-heading" style="right: 33%;">REVIEW</h2>
+                    <h3>REVIEW</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Review Section End -->
 
 <?php include 'footer.php' ?>
