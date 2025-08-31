@@ -20,6 +20,7 @@ body{
 /*=== Hero Section Start ===*/
 /***************************/
 .hero-section{
+    margin-top: 66px;
     height: 850px;
     background-image: url('../img/hero-bg.png');
     width: 100%;
@@ -56,7 +57,20 @@ body{
     border-radius: 25px;
     outline: none;
     border: none;
+    transition: 0.4s;
 }
+.hero-btn:hover{
+    transform: translateY(-1px);
+    box-shadow: 0px 5px 10px 0px #fec64450;
+    transition: all 0.4s ease;
+}
+@media (max-width:576px){
+    .hero-btn{
+        margin-bottom: 35px ;
+    }
+
+}
+
 .hero-img-container{
     padding: 0px;
     position: absolute;
@@ -389,8 +403,74 @@ body{
 /*********************************/
 .portfolio-section{
     padding: 100px 0px;
+    background-color: #0a101e;
 }
-
+.portfolio-card{
+    position: relative;
+}
+.portfolio-card::before{
+    content: '';
+    position: absolute;
+    background-color: #3f4551;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+.portfolio-card:hover::before{
+    opacity: 0.8;
+    /* background-color: red; */
+    transition: all 0.4s ease;
+}
+.portfolio-card::after{
+    opacity: 0;
+    content: '';
+    border: 1px solid #fdfeff;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    bottom: 50%;
+    right: 50%;
+    transition: all 0.4s ease;
+    transform: translate(50%, 50%);
+}
+.portfolio-card:hover::after{
+    opacity: 0.8;
+    transition: all 0.4s ease ;
+}
+.portfolio-card-item-hover{
+    position: absolute;
+    bottom: 40%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    overflow: hidden;
+    /* max-width: 0; */
+    white-space: nowrap;
+    z-index: -1;
+    /* transition: 0.4s; */
+}
+.portfolio-card:hover .portfolio-card-item-hover{
+    z-index: 99;
+    /* transition: all 0.4s ease; */
+}
+.portfolio-card-item-hover i{
+    color: #151b29;
+    background-color: #fec544;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .8;
+    border: 0.5px solid #3f4551;
+    margin-bottom: 25px;
+}
+.portfolio-card-item-hover h4{
+    color: #fdfeff;
+    font-size:20px ;
+}
 /*********************************/
 /*=== Portfolio Section Ends ===*/
 /*******************************/
@@ -400,11 +480,190 @@ body{
 /****************************/
 .review-section{
     padding: 100px 0px;
-    
+    background-color: #070d1b;
+}
+.slider-content{
+    background-color: #101624;
+    padding: 30px 15px;
+    margin-bottom: 40px;
+    border: 1px solid #232935;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+    transition: 0.4s;
+}
+.slider-quote{
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    z-index: -1;
+}
+.slider-quote::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 300%;
+    bottom: -95px;
+    transform: translateX(-50%) rotate(45deg);
+    border-width: 0px 1px 1px 0px;
+    border-color: #232935;
+    border-style: solid;
+    background-color: #101624;
+    transition: 0.4s;
+}
+.slider-card:hover .slider-quote::after{
+    border-color: #fec544;
+    transition: all 0.4s ease;
+}
+.slider-content p{
+    margin-top: -6px;
+    margin-bottom: -6px;
+}
+.slider-author-content h3{
+    color: #fdfeff;
+    font-size: 20px;
+    margin-bottom: 4px;
+    transition: 0.4s;
+}
+.slider-card:hover .slider-content{
+    border-color: #fec544;
+    transition: all 0.4s ease;
+ }
+
+.slider-card:hover .slider-author-content h3{
+    color: #fec544;
+    transition: all 0.4s ease;
+
 }
 /******************************/
 /*=== Review Section Ends ===*/
 /****************************/
+
+/******************************/
+/*=== Blog Section Starts ===*/
+/****************************/
+.blog-section{
+    padding: 100px 0px;
+
+}
+.blog-info{
+    margin-top: 20px;
+}
+.blog-divider{
+    color: #a9adb8;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.blog-title{
+    font-size: 20px;
+    color: #fdfeff;
+    font-weight: 400;
+}
+.blog-title:hover{
+    color: #fec544;
+}
+/******************************/
+/*=== Blog Section Ends ===*/
+/****************************/
+
+
+/*********************************/
+/*=== Contact Section Starts ===*/
+/*******************************/
+.contact-section{
+    padding: 100px 0px;
+    background-color: #070d1b;
+}
+.form-input{
+    background-color: #101624 !important;
+    color: #a9adb8 !important;
+    border: 1px solid #232935 !important;
+    padding: 12px 20px !important;
+    margin-bottom: 30px !important ;
+}
+.form-input:focus{
+    border-color:  #fec544 !important;
+    outline: 0;
+    box-shadow: none !important;
+
+}
+::placeholder{
+    color: #3f4551 !important;
+}
+.contact-info-card{
+    margin-bottom: 30px;
+}
+.contact-info-card   i{
+    color: #a9adb8;
+    /* font-size: 16px; */
+    background-color: #070d1b;
+    border: 1px solid #232935;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.contact-info-text h3{
+    color:#fdfeff ;
+    font-size: 20px;
+    font-weight: 400;
+}
+.social-media-links-container{
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+}
+.social-media-links-container a{
+    background-color: #070d1b;
+    border: 1px solid #232935;
+    border-radius: 100px;
+    /* width: 50px;*/
+    /* height: 50px;  */
+    padding: 10px;
+    overflow: hidden;
+    font-size: 22px;
+    color: #a9adb8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.social-media-links-container a:hover .social-media-name{
+    max-width: 120px;
+    transition: all 0.4s ease;
+    margin-left: 10px;
+
+}
+.social-media-name{
+    display: inline-block;
+    color: #fdfeff;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 0;
+    overflow: hidden;
+    transition: 0.4s;
+}
+.social-profile-text{
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #a9adb8;
+}
+.contact-info-card:hover  i{
+     border-color: #fec544 !important ;
+}
+.contact-info-card a:hover {
+    color: #fec544;
+}
+
+/*******************************/
+/*=== Contact Section Ends ===*/
+/*****************************/
+
+
+
 
 
 /*****************************/
@@ -415,25 +674,6 @@ body{
 /*******************************/
 /**** Utility Class Start *****/
 /*****************************/
-.container{
-    max-width: 1140px !important;
-}
-@media (max-width:1024px) {
-    .container{
-        max-width: 960px;
-    }
-}
-@media (max-width:768px) {
-    .container{
-        max-width: 720px;
-    }
-}
-@media (max-width:576px) {
-    .container{
-        max-width: 540px;
-    }
-}
-
 .sticky-navbar{
     position: fixed !important;
     top: 0;
@@ -556,6 +796,14 @@ body{
 
 .margin-bottom-heavy{
     margin-bottom: 43px
+}
+.zoom-in{
+    overflow: hidden;
+    transition: all 0.3s ease ;
+}
+.zoom-in:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
 }
 
 /*******************************/
